@@ -1561,6 +1561,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$DictionaryWithArray.ts
 /* eslint-disable */
 export const $DictionaryWithArray = {
     type: 'dictionary',
+    description: \`This is a complex dictionary\`,
     contains: {
         type: 'array',
         contains: {
@@ -1576,6 +1577,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$DictionaryWithDictiona
 /* eslint-disable */
 export const $DictionaryWithDictionary = {
     type: 'dictionary',
+    description: \`This is a string dictionary\`,
     contains: {
         type: 'dictionary',
         contains: {
@@ -1591,6 +1593,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$DictionaryWithProperti
 /* eslint-disable */
 export const $DictionaryWithProperties = {
     type: 'dictionary',
+    description: \`This is a complex dictionary\`,
     contains: {
         properties: {
             foo: {
@@ -1610,6 +1613,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$DictionaryWithReferenc
 /* eslint-disable */
 export const $DictionaryWithReference = {
     type: 'dictionary',
+    description: \`This is a string reference\`,
     contains: {
         type: 'ModelWithString',
     },
@@ -1622,6 +1626,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$DictionaryWithString.t
 /* eslint-disable */
 export const $DictionaryWithString = {
     type: 'dictionary',
+    description: \`This is a string dictionary\`,
     contains: {
         type: 'string',
     },
@@ -4953,6 +4958,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$DictionaryWithArray.ts
 /* eslint-disable */
 export const $DictionaryWithArray = {
     type: 'dictionary',
+    description: \`This is a complex dictionary\`,
     contains: {
         type: 'array',
         contains: {
@@ -4968,6 +4974,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$DictionaryWithDictiona
 /* eslint-disable */
 export const $DictionaryWithDictionary = {
     type: 'dictionary',
+    description: \`This is a string dictionary\`,
     contains: {
         type: 'dictionary',
         contains: {
@@ -4983,6 +4990,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$DictionaryWithProperti
 /* eslint-disable */
 export const $DictionaryWithProperties = {
     type: 'dictionary',
+    description: \`This is a complex dictionary\`,
     contains: {
         properties: {
             foo: {
@@ -5002,6 +5010,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$DictionaryWithReferenc
 /* eslint-disable */
 export const $DictionaryWithReference = {
     type: 'dictionary',
+    description: \`This is a string reference\`,
     contains: {
         type: 'ModelWithString',
     },
@@ -5014,6 +5023,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$DictionaryWithString.t
 /* eslint-disable */
 export const $DictionaryWithString = {
     type: 'dictionary',
+    description: \`This is a string dictionary\`,
     contains: {
         type: 'string',
     },
