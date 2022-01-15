@@ -1649,6 +1649,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$EnumWithExtensions.ts 
 /* eslint-disable */
 export const $EnumWithExtensions = {
     type: 'Enum',
+    description: \`This is a simple enum with numbers\`,
 } as const;"
 `;
 
@@ -1658,6 +1659,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$EnumWithNumbers.ts 1`]
 /* eslint-disable */
 export const $EnumWithNumbers = {
     type: 'Enum',
+    description: \`This is a simple enum with numbers\`,
 } as const;"
 `;
 
@@ -1667,6 +1669,7 @@ exports[`v2 should generate: ./test/generated/v2/schemas/$EnumWithStrings.ts 1`]
 /* eslint-disable */
 export const $EnumWithStrings = {
     type: 'Enum',
+    description: \`This is a simple enum with strings\`,
 } as const;"
 `;
 
@@ -1834,9 +1837,11 @@ export const $ModelWithEnum = {
     properties: {
         test: {
             type: 'Enum',
+            description: \`This is a simple enum with strings\`,
         },
         statusCode: {
             type: 'Enum',
+            description: \`These are the HTTP error code enums\`,
         },
         bool: {
             type: 'boolean',
@@ -1855,6 +1860,7 @@ export const $ModelWithEnumFromDescription = {
     properties: {
         test: {
             type: 'Enum',
+            description: \`Success=1,Warning=2,Error=3\`,
         },
     },
 } as const;"
@@ -1892,6 +1898,7 @@ export const $ModelWithNestedEnums = {
             type: 'dictionary',
             contains: {
                 type: 'Enum',
+                description: \`Success=1,Warning=2,Error=3\`,
             },
         },
         arrayWithEnum: {
@@ -1904,6 +1911,7 @@ export const $ModelWithNestedEnums = {
             type: 'array',
             contains: {
                 type: 'Enum',
+                description: \`Success=1,Warning=2,Error=3\`,
             },
         },
     },
@@ -5046,6 +5054,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$EnumWithExtensions.ts 
 /* eslint-disable */
 export const $EnumWithExtensions = {
     type: 'Enum',
+    description: \`This is a simple enum with numbers\`,
 } as const;"
 `;
 
@@ -5055,6 +5064,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$EnumWithNumbers.ts 1`]
 /* eslint-disable */
 export const $EnumWithNumbers = {
     type: 'Enum',
+    description: \`This is a simple enum with numbers\`,
 } as const;"
 `;
 
@@ -5064,6 +5074,7 @@ exports[`v3 should generate: ./test/generated/v3/schemas/$EnumWithStrings.ts 1`]
 /* eslint-disable */
 export const $EnumWithStrings = {
     type: 'Enum',
+    description: \`This is a simple enum with strings\`,
 } as const;"
 `;
 
@@ -5303,9 +5314,11 @@ export const $ModelWithEnum = {
     properties: {
         test: {
             type: 'Enum',
+            description: \`This is a simple enum with strings\`,
         },
         statusCode: {
             type: 'Enum',
+            description: \`These are the HTTP error code enums\`,
         },
         bool: {
             type: 'boolean',
@@ -5324,6 +5337,7 @@ export const $ModelWithEnumFromDescription = {
     properties: {
         test: {
             type: 'Enum',
+            description: \`Success=1,Warning=2,Error=3\`,
         },
     },
 } as const;"
@@ -5361,6 +5375,7 @@ export const $ModelWithNestedEnums = {
             type: 'dictionary',
             contains: {
                 type: 'Enum',
+                description: \`Success=1,Warning=2,Error=3\`,
             },
         },
         arrayWithEnum: {
@@ -5373,6 +5388,7 @@ export const $ModelWithNestedEnums = {
             type: 'array',
             contains: {
                 type: 'Enum',
+                description: \`Success=1,Warning=2,Error=3\`,
             },
         },
     },

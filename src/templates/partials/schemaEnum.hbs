@@ -1,5 +1,8 @@
 {
 	type: 'Enum',
+{{#if description}}
+	description: `{{{escapeDescription description}}}`,
+{{/if}}
 {{#if isReadOnly}}
 	isReadOnly: {{{isReadOnly}}},
 {{/if}}
